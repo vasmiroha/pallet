@@ -1,0 +1,23 @@
+{
+  "name": "requreFrontendTest",
+  "version": "0.0.0",
+  "homepage": "https://github.com/epamprojects/requreFrontendTest",
+  "authors": [
+    "Mykolai_Lytvyn <mycdpepam@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.21"
+  },
+  "devDependencies": {
+    "requirejs": "~2.1.21",
+    "slick-carousel": "~1.5.9"
+  }
+}

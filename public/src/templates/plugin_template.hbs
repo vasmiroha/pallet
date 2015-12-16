@@ -1,0 +1,40 @@
+<div class="pa-color-array_filter_wrapper">
+	<div class="pa-color-array_filter">
+		<!--pa-color-array_filter_item_wrapper-->
+		{{#each result}}
+				<span href="" class="pa-color-array_filter_item_wrapper" data-family-name="{{id}}">
+				   <span class="pa-color-array_filter_item">
+
+					    <span class="pa-color-array_filter_item_circle_wrapper">
+						  <span class="pa-color-array_filter_item_circle" style="background: {{filterColor}}"></span>
+						  <span class="pa-color-array_filter_item_border pa-color-array_filter_item_border__hide" style="border-color: {{filterColor}}"></span>
+					    </span>
+
+					    <span class="pa-color-array_filter_title_wrapper">
+						   <span class="pa-color-array_filter_title">{{nameEn}}</span>
+					   </span>
+				   </span>
+				</span>
+		{{/each}}
+	</div>
+</div>
+
+<div class="pa-color-array_palletes_wrapper">
+	<div class="pa-color-array_palletes_wrapper_inner">
+		<div class="pa-color-array_palletes ">
+
+			<!--pa-color-array_pallete-->
+			{{#each result}}
+				<div class="pa-color-array_pallete" data-family-name="{{id}}">
+					{{#each filterPallete}}
+						<div class="pa-color-array_pallete_item_color_wrapper">
+							<div class="pa-color-array_pallete_item_color" style="background: {{rgb}}" data-colour-code="{code}"></div>
+							<div class="pa-color-array_pallete_item_border pa-color-array_pallete_item_border__hide"></div>
+						</div>
+					{{/each}}
+				</div>
+			{{/each}}
+
+		</div>
+	</div>
+</div>

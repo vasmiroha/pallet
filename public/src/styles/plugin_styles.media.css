@@ -1,0 +1,84 @@
+@media only screen and (min-width: 1080px){
+    /*
+     pa-color-array
+    */
+    .pa-colour-array-component{
+        width: 995px;
+        height: 1560px;
+    }
+
+    /*pa-color-array_filter*/
+    .pa-color-array_filter_wrapper{
+        width: 990px;
+        height: 202px;
+    }
+    .pa-color-array_filter_wrapper__no-scroll {
+        width: auto;
+        text-align: center;
+    }
+    .pa-color-array_filter_wrapper__no-scroll .pa-color-array_filter {
+        display: inline-block;
+    }
+
+    .pa-color-array_filter{
+        height: 180px;
+    }
+    .pa-color-array_filter_item_wrapper{
+        height:160px;
+        width:166px;
+        position: relative;
+        padding-top: 4px;
+    }
+    .scroll .pa-color-array_filter_item_wrapper{
+        left: 46px;
+    }
+    .pa-color-array_filter_item{
+        width: 104px;
+    }
+    .pa-color-array_filter_item_circle_wrapper{
+        width: 100%;
+        padding-top: 8px;
+    }
+    .pa-color-array_filter_item_circle{
+        width: 100px;
+        height: 100px;
+    }
+    .pa-color-array_filter_item_border{
+        top: -1px;
+        left: -9px;
+        width: 110px;
+        height: 108px;
+        border-width: 6px;
+    }
+    .pa-color-array_filter_title_wrapper{
+        height: 81px;
+        width: 108px;
+    }
+    .pa-color-array_filter_title{
+        font-size: 18px;
+    }
+
+    /*pa-color-array_pallete*/
+    .pa-color-array_palletes_wrapper{
+        height:1355px;
+    }
+    .pa-color-array_palletes{
+        width: 1011px;
+
+    }
+    .pa-color-array_pallete{
+        width: 1040px;
+    }
+    .pa-color-array_pallete_item_color_wrapper{
+        margin-right: 10px;
+        margin-bottom:10px;
+    }
+    .pa-color-array_pallete_item_color{
+        width: 187px;
+        height: 187px;
+    }
+    .pa-color-array_pallete_item_border {
+        width: 187px;
+        height:187px;
+    }
+}
